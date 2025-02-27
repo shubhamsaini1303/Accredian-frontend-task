@@ -1,0 +1,111 @@
+write complate code in this have when click first to open right and click second to close first and open second this type of logic write complate code for this and  make this page responsive for all devices and have friend's details have friend's name , email , mobile , course and refer now name , email , number and a button of Refer Now and call the backend api write code for both and hit the backend api and also write code clg to check this and  in first write code for first and second use ? : "" for handle both form fill first form and next to call second form for refer now write complate code 
+
+
+
+
+      {/* {showPopup && (
+        <div
+          className="fixed grid grid-cols-2 inset-0 bg-black bg-opacity-50 items-center justify-center"
+          onClick={() => setShowPopup(false)}
+        >
+          <div
+            className="bg-white p-6 rounded-lg shadow-lg w-1/2 relative border-4 border-red-700"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="absolute top-3 right-3 text-gray-600 hover:text-gray-800"
+              onClick={() => setShowPopup(false)}
+            >
+              ✖
+            </button>
+
+            {step === 1 ? (
+              <>
+                <h2 className="text-2xl font-semibold text-center mb-4">Refer a Friend</h2>
+                <form className="space-y-4">
+                  <input
+                    name="friendName"
+                    value={friendDetails.friendName}
+                    onChange={(e) => handleChange(e, "friend")}
+                    placeholder="Friend's Name"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <input
+                    name="friendEmail"
+                    type="email"
+                    value={friendDetails.friendEmail}
+                    onChange={(e) => handleChange(e, "friend")}
+                    placeholder="Friend's Email"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <input
+                    name="friendNumber"
+                    type="tel"
+                    value={friendDetails.friendNumber}
+                    onChange={(e) => handleChange(e, "friend")}
+                    placeholder="Friend's Mobile Number"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <select
+                    name="course"
+                    value={friendDetails.course}
+                    onChange={(e) => handleChange(e, "friend")}
+                    className="w-full p-2 border rounded"
+                  >
+                    <option value="">Select Course</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="AI & ML">AI & ML</option>
+                  </select>
+
+                  <button
+                    type="button"
+                    onClick={handleNext}
+                    className="bg-blue-600 text-white py-2 px-6 rounded-md w-full"
+                  >
+                    Next
+                  </button>
+                </form>
+              </>
+            ) : (
+              <>
+                <h2 className="text-2xl font-semibold text-center mb-4">Your Details</h2>
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <input
+                    name="myName"
+                    value={myDetails.myName}
+                    onChange={(e) => handleChange(e, "self")}
+                    placeholder="Your Name"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <input
+                    name="myEmail"
+                    type="email"
+                    value={myDetails.myEmail}
+                    onChange={(e) => handleChange(e, "self")}
+                    placeholder="Your Email"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <input
+                    name="myNumber"
+                    type="tel"
+                    value={myDetails.myNumber}
+                    onChange={(e) => handleChange(e, "self")}
+                    placeholder="Your Mobile Number"
+                    className="w-full p-2 border rounded"
+                  />
+
+                  <button type="submit" className="bg-green-600 text-white py-2 px-6 rounded-md w-full">
+                    Refer Now
+                  </button>
+                </form>
+              </>
+            )}
+          </div>
+        </div>
+      )} */}
